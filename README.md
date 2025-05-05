@@ -9,10 +9,8 @@ FastAPI app for  Python programming 2
 - Pydantic
 - Uvicorn
 
-## Установка и запуск
+#Installation and run:
 
-```bash
-git clone <repo-url>
 cd fastapi_app
 python3 -m venv venv
 source venv/bin/activate
