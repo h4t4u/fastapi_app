@@ -1,0 +1,36 @@
+************* Module app.test_main
+app/test_main.py:3:0: E0401: Unable to import 'pytest' (import-error)
+app/test_main.py:4:0: E0401: Unable to import 'fastapi.testclient' (import-error)
+app/test_main.py:6:0: E0401: Unable to import 'random_username.generate' (import-error)
+app/test_main.py:29:4: W0101: Unreachable code (unreachable)
+app/test_main.py:43:21: W0621: Redefining name 'token' from outer scope (line 14) (redefined-outer-name)
+app/test_main.py:43:21: W0613: Unused argument 'token' (unused-argument)
+app/test_main.py:60:23: W0621: Redefining name 'token' from outer scope (line 14) (redefined-outer-name)
+app/test_main.py:7:0: W0611: Unused NoResultFound imported from sqlalchemy.exc (unused-import)
+app/test_main.py:6:0: C0411: third party import "from random_username.generate import generate_username" should be placed before "from app.main import app" (wrong-import-order)
+app/test_main.py:7:0: C0411: third party import "from sqlalchemy.exc import NoResultFound" should be placed before "from app.main import app" (wrong-import-order)
+************* Module app.models
+app/models.py:3:0: C0301: Line too long (162/100) (line-too-long)
+************* Module app.auth
+app/auth.py:4:0: E0401: Unable to import 'jose' (import-error)
+app/auth.py:5:0: E0401: Unable to import 'fastapi' (import-error)
+app/auth.py:6:0: E0401: Unable to import 'fastapi.security' (import-error)
+************* Module app.run_tests
+app/run_tests.py:10:0: C0304: Final newline missing (missing-final-newline)
+app/run_tests.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+app/run_tests.py:10:0: E0602: Undefined variable 'test_delete_book' (undefined-variable)
+************* Module app.schemas
+app/schemas.py:7:0: E0401: Unable to import 'pydantic' (import-error)
+************* Module app.main
+app/main.py:147:0: C0304: Final newline missing (missing-final-newline)
+app/main.py:3:0: E0401: Unable to import 'fastapi.security' (import-error)
+app/main.py:4:0: E0401: Unable to import 'fastapi' (import-error)
+app/main.py:130:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+app/main.py:131:8: W0707: Consider explicitly re-raising using the 'from' keyword (raise-missing-from)
+app/main.py:147:8: W0707: Consider explicitly re-raising using the 'from' keyword (raise-missing-from)
+app/main.py:147:56: E0602: Undefined variable 'e' (undefined-variable)
+app/main.py:146:4: W0612: Unused variable 'error' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 7.51/10 (previous run: 7.33/10, +0.18)
+
